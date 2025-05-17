@@ -37,7 +37,7 @@
             // 
             richTextBox1.Location = new Point(25, 12);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(743, 170);
+            richTextBox1.Size = new Size(743, 391);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "";
             // 
@@ -45,20 +45,21 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Adauga diacritice", "Adauga diacritice+fix grammar" });
-            comboBox1.Location = new Point(25, 204);
+            comboBox1.Location = new Point(25, 410);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(214, 28);
+            comboBox1.Size = new Size(320, 28);
             comboBox1.TabIndex = 1;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            comboBox1.SelectedIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(297, 204);
+            button1.Location = new Point(674, 409);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 2;
             button1.Text = "Execute";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 

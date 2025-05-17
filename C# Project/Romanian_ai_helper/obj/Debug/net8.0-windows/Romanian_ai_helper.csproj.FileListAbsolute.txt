@@ -1,0 +1,34 @@
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.exe
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.deps.json
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.runtimeconfig.json
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.pdb
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.Form1.resources
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.csproj.GenerateResource.cache
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.AssemblyInfoInputs.cache
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.AssemblyInfo.cs
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.csproj.CoreCompileInputs.cache
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.sourcelink.json
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\refint\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.pdb
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.genruntimeconfig.cache
+C:\Users\adibo_s4utxbj\Documents\Personal Projects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\ref\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.exe
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.deps.json
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.runtimeconfig.json
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\bin\Debug\net8.0-windows\Romanian_ai_helper.pdb
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.Form1.resources
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.csproj.GenerateResource.cache
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.AssemblyInfoInputs.cache
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.AssemblyInfo.cs
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.csproj.CoreCompileInputs.cache
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.sourcelink.json
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\refint\Romanian_ai_helper.dll
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.pdb
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\Romanian_ai_helper.genruntimeconfig.cache
+C:\Users\adibo_s4utxbj\Documents\PersonalProjects\Romanian_ai_helper\C# Project\Romanian_ai_helper\obj\Debug\net8.0-windows\ref\Romanian_ai_helper.dll

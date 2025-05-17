@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\",
+  "WorkspaceRootPath": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|c:\\users\\adibo_s4utxbj\\documents\\personal projects\\romanian_ai_helper\\c# project\\romanian_ai_helper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|c:\\users\\adibo_s4utxbj\\documents\\personalprojects\\romanian_ai_helper\\c# project\\romanian_ai_helper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|c:\\users\\adibo_s4utxbj\\documents\\personal projects\\romanian_ai_helper\\c# project\\romanian_ai_helper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|c:\\users\\adibo_s4utxbj\\documents\\personalprojects\\romanian_ai_helper\\c# project\\romanian_ai_helper\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45484F87-95C2-4F9B-829F-053EDB6F48F3}|Romanian_ai_helper.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,23 +27,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T20:02:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
+              "ToolTip": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T10:13:06.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T10:12:23.155Z",

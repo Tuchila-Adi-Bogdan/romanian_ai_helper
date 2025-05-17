@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Romanian_ai_helper.csproj",
+      "projectUniqueName": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Romanian_ai_helper.csproj",
       "projectName": "Romanian_ai_helper",
-      "projectPath": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Romanian_ai_helper.csproj",
+      "projectPath": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\Romanian_ai_helper.csproj",
       "packagesPath": "C:\\Users\\adibo_s4utxbj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adibo_s4utxbj\\Documents\\Personal Projects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\obj\\",
+      "outputPath": "C:\\Users\\adibo_s4utxbj\\Documents\\PersonalProjects\\Romanian_ai_helper\\C# Project\\Romanian_ai_helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
