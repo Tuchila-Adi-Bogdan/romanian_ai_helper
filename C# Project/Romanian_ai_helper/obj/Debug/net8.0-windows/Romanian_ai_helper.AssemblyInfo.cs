@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Romanian_ai_helper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd71b6481af7806f57e45690e902797867a8e57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e50220d816841830a3b830100eb4a5d67c5002f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Romanian_ai_helper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Romanian_ai_helper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
