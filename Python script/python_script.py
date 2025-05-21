@@ -1,34 +1,32 @@
 import sys
 import io
 
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
-
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline as hf_pipeline
 
 # Force UTF-8 output to work correctly with Windows and C#
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-model_name = "ai-forever/mGPT"
+# Model setup
+model_name = "ai-forever/mGPT-1.3B-romanian"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
-# Use causal LM pipeline instead of text2text
-generator = pipeline(
-    "text-generation",
-    model=model,
-    tokenizer=tokenizer,
-    device=0 if torch.cuda.is_available() else -1,
-    truncation=True,  # ✅ Add this line
-)
+# Set device (CPU or GPU)
+device = 0 if torch.cuda.is_available() else -1
+
+# Load the pipeline correctly
+text_generator = hf_pipeline("text-generation", model=model, tokenizer=tokenizer, device=device)
 
 def restore_diacritics(text):
-    prompt = "restore diacritics: " + text
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=128)
-    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+    prompt = (
+    "Text fără diacritice: Georgescu voteaza cu Calin si il trimite la piata.\n"
+    "Text cu diacritice: "
+)
 
-    outputs = model.generate(**inputs, max_length=128, do_sample=False)
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+    output = text_generator(prompt, max_new_tokens=64, do_sample=False)
+    return output[0]["generated_text"]
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
