@@ -1,7 +1,7 @@
 import sys
 import io
 
-from transformers import AutoTokenizer, AutoModelForMaskedLM, pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 
 
@@ -9,33 +9,26 @@ import torch
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-model_name = "dumitrescustefan/bert-base-romanian-cased-v1"
+model_name = "ai-forever/mGPT"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForMaskedLM.from_pretrained(model_name)
-correcter = pipeline("fill-mask", model=model, tokenizer=tokenizer)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
+# Use causal LM pipeline instead of text2text
+generator = pipeline(
+    "text-generation",
+    model=model,
+    tokenizer=tokenizer,
+    device=0 if torch.cuda.is_available() else -1,
+    truncation=True,  # ✅ Add this line
+)
 
 def restore_diacritics(text):
-    
-    words = text.split()
-    restored_words = []
-    
-    for word in words:
-        # Skip words that already have diacritics or are short/not alphabetic
-        if any(char in "ăâîșțĂÂÎȘȚ" for char in word) or not word.isalpha():
-            restored_words.append(word)
-            continue
-        
-        # Mask the word and predict corrections
-        masked_text = f"{' '.join(words[:words.index(word)])} [MASK] {' '.join(words[words.index(word)+1:])}"
-        predictions = correcter(masked_text)
-        
-        # Select the best prediction (top candidate)
-        best_prediction = predictions[0]["token_str"]
-        restored_words.append(best_prediction)
-    
-    restored_text = " ".join(restored_words)
-    return restored_text
+    prompt = "restore diacritics: " + text
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=128)
+    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+
+    outputs = model.generate(**inputs, max_length=128, do_sample=False)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
